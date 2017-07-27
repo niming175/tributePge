@@ -1,0 +1,27 @@
+#app {
+    font: 14px/150% helvetica, "微软雅黑", "microsoft yahei", verdana, lucida, arial, sans-serif, "黑体";
+    .app-content {
+        background: #eee;
+        .app-card {
+            width: 50%;
+            max-width: 800px;
+            min-width: 350px;
+            background: #fff;
+            margin: 0 auto;
+            .app-image {
+                width: 100%;
+                height: auto;
+                margin-bottom: 30px;
+            }
+            .app-info {
+                border-bottom: 1px dotted #999;
+                padding: 4px;
+                .app-item-name {
+                    display: inline-block;
+                    width: 80px;
+                }
+                .app-item-text {}
+            }
+        }
+    }
+}
