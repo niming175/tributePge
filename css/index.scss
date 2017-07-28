@@ -1,9 +1,9 @@
 #app {
-    font: 14px/150% helvetica, "微软雅黑", "microsoft yahei", verdana, lucida, arial, sans-serif, "黑体";
+    font: 16px/150% helvetica, "微软雅黑", "microsoft yahei", verdana, lucida, arial, sans-serif, "黑体";
     .app-content {
         background: #eee;
         .app-card {
-            width: 50%;
+            width: 100%;
             max-width: 800px;
             min-width: 350px;
             background: #fff;
@@ -20,7 +20,20 @@
                     display: inline-block;
                     width: 80px;
                 }
-                .app-item-text {}
+            }
+        }
+        .app-introduce{
+            .introduce-title{
+                padding:2px 10px 5px 0;
+                border-bottom:2px solid #ccc;
+                font-size: 18px;
+                font-weight: 600;
+                margin-top: 15px;
+                display: inline-block;
+            }
+            .introduce-text{
+                margin-top: 15px;
+                color: #555;
             }
         }
     }
